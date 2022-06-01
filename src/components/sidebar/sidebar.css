@@ -2,15 +2,15 @@
     flex: 1;
     height: calc(100vh - 50px);
     background-color: rgb(251, 251, 255);
-    position: sticky;
-    top: 50px;
-    z-index: 999;
     margin-right:20px;
 }
 
 .sidebarWrapper {
     padding: 20px;
     color: #555;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 50px;
 }
 
 .sidebarMenu {
