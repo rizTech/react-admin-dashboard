@@ -4,7 +4,7 @@ import {IoMdNotificationsOutline} from 'react-icons/io';
 import {MdLanguage} from 'react-icons/md'
 import {FiSettings} from 'react-icons/fi'
 
-import AVTR from '../../assets/avatar.png'
+//import AVTR from ''
 
 export default function Topbar() {
   return (
@@ -25,7 +25,7 @@ export default function Topbar() {
                 <div className="topbarIconContainer">
                     <FiSettings />
                 </div>
-                <img src={AVTR} alt="Avatar" className="topAvatar" />
+                <img src='https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg' alt="Avatar" className="topAvatar" />
             </div>
         </div>
     </div>
